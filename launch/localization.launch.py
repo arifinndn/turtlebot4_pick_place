@@ -18,7 +18,7 @@ ARGUMENTS = [
 
 
 def generate_launch_description():
-    pkg_turtlebot4_navigation = get_package_share_directory('turtlebot4_uts')
+    pkg_turtlebot4_navigation = get_package_share_directory('turtlebot4_nav_uts')
     pkg_nav2_bringup = get_package_share_directory('nav2_bringup')
 
     localization_params_arg = DeclareLaunchArgument(
